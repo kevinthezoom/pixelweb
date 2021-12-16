@@ -18,9 +18,9 @@ const getWidth = () => { // credit to travis on stack overflow
 
 if (doParticles) {
     if (getWidth() < 400) $.firefly({
-        minPixel: 1,
-        maxPixel: 2,
-        total: 20
+        minPixel: 3,
+        maxPixel: 4,
+        total: 25
     });
     else $.firefly({
         minPixel: 1,
